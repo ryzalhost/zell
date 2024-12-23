@@ -65,33 +65,3 @@
 ```
 
 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Contoh Audio di HTML</title>
-</head>
-<body>
-  <h1>Contoh Audio di Web</h1>
-  <audio controls>
-    <source src="Ngoni.mp3" type="audio/mpeg">
-    Browsermu tidak mendukung tag audio, upgrade donk!
-  </audio>
-</body>
-</html>
-
-
-class Chameleon {
-  static colorChange(newColor) {
-    this.newColor = newColor;
-    return this.newColor;
-  }
-
-  constructor({ newColor = 'green' } = {}) {
-    this.newColor = newColor;
-  }
-}
-
-const freddie = new Chameleon({ newColor: 'purple' });
-console.log(freddie.colorChange('orange'));
